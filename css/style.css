@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: Nunito;
+	src: url(../fonts/Nunito-Bold.ttf);
+
+}
+
+@font-face{
+	font-family: OpenSans;
+	src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face{
+	font-family: OpenSans-R;
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+.container{
+
+	margin: 0 auto;
+	margin-left: auto;
+}
+
+header{
+	margin-left: 300px;
+	display: flex;
+	height: 85px;
+}
+
+.header__link{
+	margin: 25px 14px 22px 133px;
+}
+
+h1{
+	font-family: Nunito;
+	font-size: 31px;
+	margin: 25px 0px 22px 2px;
+	color: #6D6E70;
+}
+
+ul{
+	height: ;
+	width: 695px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 80px;
+}
+
+li{
+	font-family: OpenSans;
+	font-size: 13px;
+	list-style-type: none;
+}
+
+a{
+	color: #9F9F9F;
+	text-decoration: none;
+}
+
+.small__button{
+	font-family: OpenSans;
+	width: 100px;
+	height: 38px;
+	background-color: #BCDA5C;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 13px;
+	outline: none;
+	border: 0;
+}
+
+.content{
+	margin-left: 280px;
+	display: flex;
+	width: 1299px;
+	height: 571px;
+	background-image: url(../image/layer-12.jpg);
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content__head{
+	color: #fff;
+	font-family: OpenSans;
+	font-size: 45px;
+}
+
+.content__p{
+	font-size: 35px;
+	color: #fff;
+	font-family: OpenSans-R;
+}
+
+.big__button{
+	color: #fff;
+	background-color: #BCDA5C;
+	font-size: 19px;
+	font-family: OpenSans;
+	height: 73px;
+	width: 254px;
+	outline: none;
+	border: 0;
+	border-radius: 7px;
+	margin-top: 25px;
+}
+
+.paragraps__img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 52px;
+}
+
+.paragraps__head1{
+	font-size: 31px;
+	font-family: OpenSans;
+	text-align: center;
+	color: #515151;
+	height: 20px;
+}
+
+.paragraps__head2{
+	margin-top: 30px;
+	font-size: 31px;
+	font-family: OpenSans;
+	text-align: center;
+	color: #515151;
+}
+
+.paragraps__text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.text__child{
+	height: 100px;
+	text-align: center;
+}
+
+.fotos{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.fotos__f{
+	width: 1200px;
+	display: flex;
+	justify-content: space-around;
+}
+
+hr{
+	margin-top: 26px;
+	background-color: #EDEDED;
+	color: #EDEDED;
+}
+
+.copyright{
+	margin-top: 29px;
+	margin-bottom: 29px;
+	color: #848484;
+	text-align: center;
+	font-family: OpenSans-R;
+	font-size: 13px;
+
+}
